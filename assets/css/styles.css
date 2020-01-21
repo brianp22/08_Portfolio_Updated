@@ -21,8 +21,13 @@ main {
   margin: 80px 0;
 }
 
+hr {
+  color: #222551;
+}
+
 .container {
   border-radius: 10px;
+  flex-wrap: wrap;
 
 }
 
@@ -91,17 +96,33 @@ main {
 
 .card-title {
   color: #222551;
-
-}
-
-.card-text {
-  color: #222551;
+  display: block;
 }
 
 .card-body {
-  padding: .2rem;
-  height: 50px;
+  padding-top: .5rem;
   color: #222551;
+  margin-bottom: -26px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #222551;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #222522;
+  border: 1px solid #222551;
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: .5rem;
 }
 
 .card-img-top {
@@ -193,7 +214,7 @@ main {
   color: #fff;
 
   /* Visual */
-  background-color: #5064fb;
+  background-color:rgb(198, 178, 255);
   border: 0;
 }
 
