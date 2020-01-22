@@ -51,12 +51,6 @@ hr {
   ;
 }
 
-@media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #222551;
-  }
-}
-
 .connect-header {
   font-size: 25px;
 }
@@ -167,4 +161,13 @@ hr {
 
 .submit-btn:hover {
   opacity: .7;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #222551;
+  }
+  .card-img-top {
+    height: 40vw;
+  }
 }
