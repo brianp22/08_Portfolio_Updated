@@ -1,22 +1,14 @@
-/* --- STYLES FOR ALL PAGES --- */
 body {
-  /* Typography */
   font-family: Georgia, 'Times New Roman', Times, serif;
-
-  /* Visual */
   background-image: url("../imgs/stars_background.jpg");
   color: white;
 }
 
 html {
-  /* Positioning */
   position: relative;
-
-  /* Box-model */
   min-height: 100%;
 }
 
-/* add space for fixed nav */
 main {
   margin: 80px 0;
 }
@@ -40,22 +32,16 @@ hr {
 }
 
 .block-header {
-  /* Typography */
   color: white;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
 
-/* NAV START */
 #logo {
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
   font-size: 24px;
   font-weight: bold;
   color: white;
-
-  /* Visual */
   background: #222551;
 }
 
@@ -65,34 +51,25 @@ hr {
   ;
 }
 
-/* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
     background-color: #222551;
   }
 }
-/* END NAV */
 
-/* CONNECT W/ ME CSS */
 .connect-header {
-  /* Typography */
   font-size: 25px;
 }
 
 .connect-photo {
-  /* Box-model */
   width: 55px;
   height: 55px;
 }
 
 #images {
-  /* Box-model */
   padding-top: 15px;
-
-  /* Typography */
   text-align: center;
 }
-/* END CONNECT W/ ME */
 
 .card-title {
   color: #222551;
@@ -145,75 +122,45 @@ hr {
 }
 
 .text-muted-footer {
-  /* Box-model */
   margin-top: 15px;
-
-  /* Typography */
   color: #fff;
 }
 
 .two-toned-footer-color {
-  /* Box-model */
   height: 6px;
   padding-top: 3px;
-
-  /* Visual */
   background-color: #222551;
 }
-/* END FOOTER */
-/* --- END STYLES FOR ALL PAGES --- */
 
-/* --- PAGE-SPECIFIC STYLES --- */
-/* ABOUT-ME PAGE */
 .about-me-header {
-  /* Positioning */
   margin-bottom: 33px;
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
   font-size: 32px;
   font-weight: bold;
   color: #222551;
 }
 
 #about-image {
-  /* Positioning */
   float: left;
-
-  /* Box-model */
   width: 200px;
   margin: 0 20px 10px 0;
 }
-/* END ABOUT-ME PAGE */
 
-
-/* PORTFOLIO PAGE */
 .port-image {
   margin: 20px auto;
 }
-/* END PORTFOLIO PAGE */
 
-
-/* CONTACT FORM PAGE  */
 .form-control {
-  /* give input boxes right angles */
   border-radius: 0;
-
-  /* keep from horizontally resizing text area */
   min-width: 100%;
   max-width: 100%;
 }
 
 .submit-btn {
-  /* Box-model */
   padding: 15px 30px;
   font-size: 16px;
   font-weight: lighter;
-
-  /* Typography */
   color: #fff;
-
-  /* Visual */
   background-color:rgb(198, 178, 255);
   border: 0;
 }
@@ -221,5 +168,3 @@ hr {
 .submit-btn:hover {
   opacity: .7;
 }
-
-/* END CONTACT FORM PAGE */
